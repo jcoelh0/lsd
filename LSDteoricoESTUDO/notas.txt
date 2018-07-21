@@ -1,0 +1,4 @@
+fpga design flow
+sintese logica (resulta numa netlist que implementa o comportamento e estrutura modeladas)
+implementaçao
+programação do dispositivo

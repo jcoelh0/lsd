@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jcoel/Desktop/LSD2/Aula4/Parte1/simulation/qsim
+vFlipFlopD
+Z1 !s110 1489108927
+!i10b 1
+!s100 32HCbHn4CckYf3@A@z0LT3
+I@]4f5YT]9;caGZNEnW5MW0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1489108917
+8FlipFlopD_Demo.vo
+FFlipFlopD_Demo.vo
+L0 32
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1489108926.000000
+!s107 FlipFlopD_Demo.vo|
+!s90 -work|work|FlipFlopD_Demo.vo|
+!i113 1
+Z4 o-work work
+n@flip@flop@d
+vFlipFlopD_vlg_vec_tst
+R1
+!i10b 1
+!s100 7DiFjnhElWDQ:PSWzZh6>1
+IUjaIm9:KYzgABM186gzOH2
+R2
+R0
+w1489108907
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1489108927.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+n@flip@flop@d_vlg_vec_tst

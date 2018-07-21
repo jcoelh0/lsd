@@ -1,0 +1,62 @@
+# do parking_phase1_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/jcoel/Desktop/LSD2/MicroProjeto/timer.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:48:47 on Mar 24,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/jcoel/Desktop/LSD2/MicroProjeto/timer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity timer
+# -- Compiling architecture Behavioral of timer
+# End time: 17:48:48 on Mar 24,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/jcoel/Desktop/LSD2/MicroProjeto/freqDivider.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:48:48 on Mar 24,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/jcoel/Desktop/LSD2/MicroProjeto/freqDivider.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity freqDivider
+# -- Compiling architecture Behavioral of freqDivider
+# End time: 17:48:49 on Mar 24,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/jcoel/Desktop/LSD2/MicroProjeto/parking_phase2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:48:49 on Mar 24,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/jcoel/Desktop/LSD2/MicroProjeto/parking_phase2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity parking_Phase2
+# -- Compiling architecture Shell of parking_Phase2
+# -- Loading entity timer
+# ** Error: C:/Users/jcoel/Desktop/LSD2/MicroProjeto/parking_phase2.vhd(20): (vcom-1436) Actual expression (prefix expression) of formal "start" is not globally static.
+# 
+# ** Error: C:/Users/jcoel/Desktop/LSD2/MicroProjeto/parking_phase2.vhd(27): (vcom-1436) Actual expression (prefix expression) of formal "start" is not globally static.
+# 
+# ** Error: C:/Users/jcoel/Desktop/LSD2/MicroProjeto/parking_phase2.vhd(34): (vcom-1436) Actual expression (prefix expression) of formal "start" is not globally static.
+# 
+# -- Loading package NUMERIC_STD
+# -- Loading entity freqDivider
+# ** Error: C:/Users/jcoel/Desktop/LSD2/MicroProjeto/parking_phase2.vhd(46): VHDL Compiler exiting
+# End time: 17:48:49 on Mar 24,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/altera_lite/15.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./parking_phase1_run_msim_rtl_vhdl.do line 10
+# C:/altera_lite/15.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/Users/jcoel/Desktop/LSD2/MicroProjeto/parking_phase2.vhd}"

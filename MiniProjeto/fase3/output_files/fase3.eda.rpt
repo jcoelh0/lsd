@@ -1,0 +1,82 @@
+EDA Netlist Writer report for fase3
+Sun Apr 02 13:37:54 2017
+Quartus Prime Version 15.1.1 Build 189 12/02/2015 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++---------------------------------------------------------------+
+; EDA Netlist Writer Summary                                    ;
++---------------------------+-----------------------------------+
+; EDA Netlist Writer Status ; Failed - Sun Apr 02 13:37:54 2017 ;
+; Revision Name             ; fase3                             ;
+; Top-level Entity Name     ; parking_Phase3                    ;
+; Family                    ; Cyclone IV E                      ;
++---------------------------+-----------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 15.1.1 Build 189 12/02/2015 SJ Lite Edition
+    Info: Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+    Info: Your use of Altera Corporation's design tools, logic functions 
+    Info: and other software and tools, and its AMPP partner logic 
+    Info: functions, and any output files from any of the foregoing 
+    Info: (including device programming or simulation files), and any 
+    Info: associated documentation or information are expressly subject 
+    Info: to the terms and conditions of the Altera Program License 
+    Info: Subscription Agreement, the Altera Quartus Prime License Agreement,
+    Info: the Altera MegaCore Function License Agreement, or other 
+    Info: applicable license agreement, including, without limitation, 
+    Info: that your use is for the sole purpose of programming logic 
+    Info: devices manufactured by Altera and sold by Altera or its 
+    Info: authorized distributors.  Please refer to the applicable 
+    Info: agreement for further details.
+    Info: Processing started: Sun Apr 02 13:37:53 2017
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off fase3 -c fase3 --vector_source=C:/Users/jcoel/Desktop/LSD2/MiniProjeto/fase3/Waveform.vwf --testbench_file=C:/Users/jcoel/Desktop/LSD2/MiniProjeto/fase3/simulation/qsim/Waveform.vwf.vt
+Info (119006): Selected device EP4CE115F29C7 for design "fase3"
+Error (201009): Bus port "KEY" specified in vector source file has width of 2, which does not match width 4 of top level port of same name
+Error (201009): Bus port "KEY" specified in vector source file has width of 2, which does not match width 4 of top level port of same name
+Error (201009): Bus port "KEY" specified in vector source file has width of 2, which does not match width 4 of top level port of same name
+Warning (201005): Ignoring output pin "LEDG[8]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "LEDR" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "LEDR[1]" in vector source file when writing test bench files
+Warning (201005): Ignoring output pin "LEDR[0]" in vector source file when writing test bench files
+Info (201000): Generated Verilog Test Bench File C:/Users/jcoel/Desktop/LSD2/MiniProjeto/fase3/simulation/qsim/Waveform.vwf.vt for simulation
+Error: Quartus Prime EDA Netlist Writer was unsuccessful. 3 errors, 4 warnings
+    Error: Peak virtual memory: 703 megabytes
+    Error: Processing ended: Sun Apr 02 13:37:54 2017
+    Error: Elapsed time: 00:00:01
+    Error: Total CPU time (on all processors): 00:00:01
+
+

@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jcoel/Desktop/LSD2/MicroProjeto/simulation/qsim
+vparking_Phase2
+Z1 !s110 1490378237
+!i10b 1
+!s100 =^5>;94^TPK3DaX@<GDS<1
+IF>5n6UedIOnLOjlX?`Mco0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1490378236
+8parking_phase1.vo
+Fparking_phase1.vo
+L0 32
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1490378237.000000
+!s107 parking_phase1.vo|
+!s90 -work|work|parking_phase1.vo|
+!i113 1
+Z5 o-work work
+nparking_@phase2
+vparking_Phase2_vlg_vec_tst
+R1
+!i10b 1
+!s100 QHzO1?<73kH[hH6o5<Jh>1
+IAC<zDc8@`?d>Y1`FA;N:V3
+R2
+R0
+w1490378232
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R5
+nparking_@phase2_vlg_vec_tst

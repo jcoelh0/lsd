@@ -1,0 +1,29 @@
+|DrinksMachine
+LEDG[0] <= DrinksFSM:inst.drink
+KEY[0] => inst2.IN0
+CLOCK_50 => DrinksFSM:inst.clk
+SW[0] => DrinksFSM:inst.coin20
+SW[1] => DrinksFSM:inst.coin50
+
+
+|DrinksMachine|DrinksFSM:inst
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+reset => s_currentState.OUTPUTSELECT
+clk => s_currentState~1.DATAIN
+coin20 => s_nextState.OUTPUTSELECT
+coin20 => s_nextState.OUTPUTSELECT
+coin20 => s_nextState.OUTPUTSELECT
+coin20 => Selector2.IN5
+coin20 => Selector4.IN5
+coin20 => Selector6.IN4
+coin20 => Selector8.IN4
+coin50 => s_nextState.DATAA
+coin50 => s_nextState.DATAA
+coin50 => s_nextState.DATAA
+drink <= drink.DB_MAX_OUTPUT_PORT_TYPE
+
+

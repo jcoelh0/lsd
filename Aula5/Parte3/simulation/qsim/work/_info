@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jcoel/Desktop/LSD2/Aula5/Parte3/simulation/qsim
+vTimerN
+Z1 !s110 1489765811
+!i10b 1
+!s100 F4`;n]zBI0<H1`Y5fTDcI3
+I?lA5InMbb9T2Fk^FDFY>S3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1489765810
+8TimerN_Demo.vo
+FTimerN_Demo.vo
+L0 32
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1489765811.000000
+!s107 TimerN_Demo.vo|
+!s90 -work|work|TimerN_Demo.vo|
+!i113 1
+Z5 o-work work
+n@timer@n
+vTimerN_vlg_vec_tst
+R1
+!i10b 1
+!s100 =<C0BE8N6m9dXdhNLnfL53
+I7OMU3HnTSgW7oVlVg7ek:0
+R2
+R0
+w1489765806
+8TimerOut.vwf.vt
+FTimerOut.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 TimerOut.vwf.vt|
+!s90 -work|work|TimerOut.vwf.vt|
+!i113 1
+R5
+n@timer@n_vlg_vec_tst

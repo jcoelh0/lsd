@@ -1,0 +1,7 @@
+
+State Machine - |SeqDet1001|SeqDetFSM:SeqDetFSM|s_currentState
+Name s_currentState.State1001 s_currentState.State100 s_currentState.State10 s_currentState.State1 
+s_currentState.State1 0 0 0 0 
+s_currentState.State10 0 0 1 1 
+s_currentState.State100 0 1 0 1 
+s_currentState.State1001 1 0 0 1 

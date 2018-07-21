@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jcoel/Desktop/LSD2/Aula1/simulation/qsim
+vGateDemo
+Z1 !s110 1487338638
+!i10b 1
+!s100 WV=@X0cXDW59JKNnTJS1c3
+I:T3h`MbVkX60c7?Gfh?1D3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1487338630
+8GateDemo.vo
+FGateDemo.vo
+L0 32
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1487338637.000000
+!s107 GateDemo.vo|
+!s90 -work|work|GateDemo.vo|
+!i113 1
+Z4 o-work work
+n@gate@demo
+vGateDemo_vlg_vec_tst
+R1
+!i10b 1
+!s100 PWAiDRbJA`3:ng8e>Tg?=3
+IG9:lh^9I^EZ7O_zBM0[nc1
+R2
+R0
+w1487338621
+8GateDemo.vwf.vt
+FGateDemo.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1487338638.000000
+!s107 GateDemo.vwf.vt|
+!s90 -work|work|GateDemo.vwf.vt|
+!i113 1
+R4
+n@gate@demo_vlg_vec_tst

@@ -1,0 +1,334 @@
+Analysis & Synthesis report for ROM_Demo
+Fri Apr 28 14:29:54 2017
+Quartus Prime Version 15.1.1 Build 189 12/02/2015 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 10. Parameter Settings for User Entity Instance: ClkDividerN:inst2
+ 11. Post-Synthesis Netlist Statistics for Top Partition
+ 12. Elapsed Time Per Partition
+ 13. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                     ;
++------------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status        ; Successful - Fri Apr 28 14:29:54 2017       ;
+; Quartus Prime Version              ; 15.1.1 Build 189 12/02/2015 SJ Lite Edition ;
+; Revision Name                      ; ROM_Demo                                    ;
+; Top-level Entity Name              ; ROM_Demo_Counter                            ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 52                                          ;
+;     Total combinational functions  ; 52                                          ;
+;     Dedicated logic registers      ; 31                                          ;
+; Total registers                    ; 31                                          ;
+; Total pins                         ; 10                                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
++------------------------------------+---------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP4CE115F29C7      ;                    ;
+; Top-level entity name                                                      ; ROM_Demo_Counter   ; ROM_Demo           ;
+; Family name                                                                ; Cyclone IV E       ; Cyclone V          ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                 ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM Block Balancing                                                   ; On                 ; On                 ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; On                 ; On                 ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization During Synthesis                              ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 8      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                             ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                   ; Library ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------+---------+
+; ROM_Demo_Counter.bdf             ; yes             ; User Block Diagram/Schematic File  ; C:/Users/jcoel/Desktop/LSD2/Aula10/Parte1/ROM_Demo_Counter.bdf ;         ;
+; ClkDividerN.vhd                  ; yes             ; User VHDL File                     ; C:/Users/jcoel/Desktop/LSD2/Aula10/Parte1/ClkDividerN.vhd      ;         ;
+; ROM_16_8.vhd                     ; yes             ; User VHDL File                     ; C:/Users/jcoel/Desktop/LSD2/Aula10/Parte1/ROM_16_8.vhd         ;         ;
+; counter.vhd                      ; yes             ; User VHDL File                     ; C:/Users/jcoel/Desktop/LSD2/Aula10/Parte1/counter.vhd          ;         ;
++----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------+---------+
+
+
++--------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                  ;
++---------------------------------------------+----------------+
+; Resource                                    ; Usage          ;
++---------------------------------------------+----------------+
+; Estimated Total logic elements              ; 52             ;
+;                                             ;                ;
+; Total combinational functions               ; 52             ;
+; Logic element usage by number of LUT inputs ;                ;
+;     -- 4 input functions                    ; 18             ;
+;     -- 3 input functions                    ; 6              ;
+;     -- <=2 input functions                  ; 28             ;
+;                                             ;                ;
+; Logic elements by mode                      ;                ;
+;     -- normal mode                          ; 27             ;
+;     -- arithmetic mode                      ; 25             ;
+;                                             ;                ;
+; Total registers                             ; 31             ;
+;     -- Dedicated logic registers            ; 31             ;
+;     -- I/O registers                        ; 0              ;
+;                                             ;                ;
+; I/O pins                                    ; 10             ;
+;                                             ;                ;
+; Embedded Multiplier 9-bit elements          ; 0              ;
+;                                             ;                ;
+; Maximum fan-out node                        ; CLOCK_50~input ;
+; Maximum fan-out                             ; 27             ;
+; Total fan-out                               ; 247            ;
+; Average fan-out                             ; 2.40           ;
++---------------------------------------------+----------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                 ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------+--------------+
+; |ROM_Demo_Counter          ; 52 (0)            ; 31 (0)       ; 0           ; 0            ; 0       ; 0         ; 10   ; 0            ; |ROM_Demo_Counter                   ; work         ;
+;    |ClkDividerN:inst2|     ; 42 (42)           ; 27 (27)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ROM_Demo_Counter|ClkDividerN:inst2 ; work         ;
+;    |ROM_16_8:inst|         ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ROM_Demo_Counter|ROM_16_8:inst     ; work         ;
+;    |counter:inst5|         ; 6 (6)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |ROM_Demo_Counter|counter:inst5     ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 31    ;
+; Number of registers using Synchronous Clear  ; 26    ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------+
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; Yes        ; |ROM_Demo_Counter|counter:inst5|s_count[3] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------+
+
+
++----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ClkDividerN:inst2 ;
++----------------+----------+------------------------------------+
+; Parameter Name ; Value    ; Type                               ;
++----------------+----------+------------------------------------+
+; divfactor      ; 50000000 ; Signed Integer                     ;
++----------------+----------+------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; boundary_port         ; 10                          ;
+; cycloneiii_ff         ; 31                          ;
+;     SCLR              ; 26                          ;
+;     plain             ; 5                           ;
+; cycloneiii_lcell_comb ; 53                          ;
+;     arith             ; 25                          ;
+;         2 data inputs ; 25                          ;
+;     normal            ; 28                          ;
+;         0 data inputs ; 1                           ;
+;         1 data inputs ; 1                           ;
+;         2 data inputs ; 2                           ;
+;         3 data inputs ; 6                           ;
+;         4 data inputs ; 18                          ;
+;                       ;                             ;
+; Max LUT depth         ; 6.00                        ;
+; Average LUT depth     ; 3.14                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 15.1.1 Build 189 12/02/2015 SJ Lite Edition
+    Info: Processing started: Fri Apr 28 14:29:42 2017
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ROM_Demo -c ROM_Demo
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 1 design units, including 1 entities, in source file rom_demo_counter.bdf
+    Info (12023): Found entity 1: ROM_Demo_Counter
+Info (12021): Found 2 design units, including 1 entities, in source file counterloadupdown4.vhd
+    Info (12022): Found design unit 1: CounterLoadUpDown4-Behavioral File: C:/Users/jcoel/Desktop/LSD2/Aula10/Parte1/CounterLoadUpDown4.vhd Line: 15
+    Info (12023): Found entity 1: CounterLoadUpDown4 File: C:/Users/jcoel/Desktop/LSD2/Aula10/Parte1/CounterLoadUpDown4.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file clkdividern.vhd
+    Info (12022): Found design unit 1: ClkDividerN-Behavioral File: C:/Users/jcoel/Desktop/LSD2/Aula10/Parte1/ClkDividerN.vhd Line: 11
+    Info (12023): Found entity 1: ClkDividerN File: C:/Users/jcoel/Desktop/LSD2/Aula10/Parte1/ClkDividerN.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file rom_16_8.vhd
+    Info (12022): Found design unit 1: ROM_16_8-RTL File: C:/Users/jcoel/Desktop/LSD2/Aula10/Parte1/ROM_16_8.vhd Line: 10
+    Info (12023): Found entity 1: ROM_16_8 File: C:/Users/jcoel/Desktop/LSD2/Aula10/Parte1/ROM_16_8.vhd Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file rom_demo.bdf
+    Info (12023): Found entity 1: ROM_Demo
+Info (12021): Found 2 design units, including 1 entities, in source file counter.vhd
+    Info (12022): Found design unit 1: counter-Behavioral File: C:/Users/jcoel/Desktop/LSD2/Aula10/Parte1/counter.vhd Line: 11
+    Info (12023): Found entity 1: counter File: C:/Users/jcoel/Desktop/LSD2/Aula10/Parte1/counter.vhd Line: 5
+Info (12127): Elaborating entity "ROM_Demo_Counter" for the top level hierarchy
+Info (12128): Elaborating entity "ROM_16_8" for hierarchy "ROM_16_8:inst"
+Info (12128): Elaborating entity "counter" for hierarchy "counter:inst5"
+Info (12128): Elaborating entity "ClkDividerN" for hierarchy "ClkDividerN:inst2"
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "LEDR[3]" is stuck at VCC
+    Warning (13410): Pin "LEDR[2]" is stuck at VCC
+    Warning (13410): Pin "LEDR[1]" is stuck at VCC
+    Warning (13410): Pin "LEDR[0]" is stuck at VCC
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 62 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 2 input pins
+    Info (21059): Implemented 8 output pins
+    Info (21061): Implemented 52 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 857 megabytes
+    Info: Processing ended: Fri Apr 28 14:29:55 2017
+    Info: Elapsed time: 00:00:13
+    Info: Total CPU time (on all processors): 00:00:28
+
+

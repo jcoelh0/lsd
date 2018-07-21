@@ -1,0 +1,111 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jcoel/Desktop/LSD2/MicroProjeto/simulation/modelsim
+Efreqdivider
+Z1 w1489008917
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/jcoel/Desktop/LSD2/MicroProjeto/freqDivider.vhd
+Z6 FC:/Users/jcoel/Desktop/LSD2/MicroProjeto/freqDivider.vhd
+l0
+L5
+V7[f>>iBZ_F>EMIMZBz`Eo2
+!s100 0ASL_dBT@=0Qe8Xa^Cj4b3
+Z7 OV;C;10.4b;61
+31
+Z8 !s110 1490377728
+!i10b 1
+Z9 !s108 1490377728.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/jcoel/Desktop/LSD2/MicroProjeto/freqDivider.vhd|
+Z11 !s107 C:/Users/jcoel/Desktop/LSD2/MicroProjeto/freqDivider.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 11 freqdivider 0 22 7[f>>iBZ_F>EMIMZBz`Eo2
+l14
+L11
+VB_hjAbMA`J2PjoNZgkA?f2
+!s100 @RZBglWaMennJfP_gUdC63
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eparking_phase2
+w1490377433
+R3
+R4
+R0
+8C:/Users/jcoel/Desktop/LSD2/MicroProjeto/parking_phase2.vhd
+FC:/Users/jcoel/Desktop/LSD2/MicroProjeto/parking_phase2.vhd
+l0
+L4
+VSa8K_2BOV;O0;O@=2OiKh3
+!s100 BfZB2Q1::4PUV55mdZZYZ1
+R7
+31
+!s110 1490377729
+!i10b 1
+!s108 1490377729.000000
+!s90 -reportprogress|300|-93|-work|work|C:/Users/jcoel/Desktop/LSD2/MicroProjeto/parking_phase2.vhd|
+!s107 C:/Users/jcoel/Desktop/LSD2/MicroProjeto/parking_phase2.vhd|
+!i113 1
+R12
+R13
+Etimer
+Z14 w1489238169
+R3
+R4
+R0
+Z15 8C:/Users/jcoel/Desktop/LSD2/MicroProjeto/timer.vhd
+Z16 FC:/Users/jcoel/Desktop/LSD2/MicroProjeto/timer.vhd
+l0
+L4
+VAB5O5Nm]hmg2bVl7c<j6>2
+!s100 :?G[=j3Yk^V^S43<`1P5c2
+R7
+31
+R8
+!i10b 1
+Z17 !s108 1490377727.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/jcoel/Desktop/LSD2/MicroProjeto/timer.vhd|
+Z19 !s107 C:/Users/jcoel/Desktop/LSD2/MicroProjeto/timer.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R3
+R4
+DEx4 work 5 timer 0 22 AB5O5Nm]hmg2bVl7c<j6>2
+l17
+L13
+VQaKC43YdD5@IiacV9NocC2
+!s100 1EL225M<O99TPDD0VIe250
+R7
+31
+R8
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R12
+R13

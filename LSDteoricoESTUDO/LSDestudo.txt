@@ -1,0 +1,109 @@
+latch (ddataOut <= dataIn)
+flipflop (igual a latch mas com clk)
+
+generic(N : positive := 8);
+
+À esquerda
+lógico ou aritmético
+(introduz 0’s)
+0100 1000 0000
+0101 1010 0100
+
+À direita
+lógico
+(introduz 0’s)
+0011 0001 0000
+1011 0101 0010
+
+À direita
+aritmético
+(preserva o sinal)
+0011 0001 0000
+1011 1101 1110
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+-- Entidade sem portos
+entity Dec2_4EnTb is
+end Dec2_4EnTb;
+architecture Stimulus of Dec2_4EnTb is
+-- Sinais para ligar às entradas da uut
+signal s_enable : std_logic;
+signal s_inputs : std_logic_vector(1 downto 0);
+-- Sinal para ligar às saídas da uut
+signal s_outputs : std_logic_vector(3 downto 0);
+begin
+-- Instanciação da Unit Under Test (UUT)
+uut: entity work.Dec2_4En(Behavioral)
+port map(enable => s_enable,
+inputs => s_inputs,
+outputs => s_outputs);
+
+--Process stim
+stim_proc : process
+begin
+wait for 100 ns;
+s_enable <= '0';
+wait for 100 ns;
+s_enable <= '1';
+wait for 100 ns;
+s_inputs <= "00";
+wait for 100 ns;
+s_inputs <= "10";
+wait for 100 ns;
+s_inputs <= "01";
+wait for 100 ns;
+s_inputs <= "11";
+wait for 100 ns;
+end process;
+end Stimulus;
+
+
+com clk há um novo processo
+
+moore só depende do estado presente
+mealy depende do estado presente e da entrada presente
+
+architecture Behavioral of ParityDetector is
+
+type TState is (S0,S1);
+signal pState, nState: TState;
+
+begin
+sync_proc : process(clk)
+begin
+if (rising_edge(clk)) then
+if (reset = '1') then
+pState <= S0;
+else
+pState <= nState;
+end if;
+end process;
+
+comb_proc : process(pState, inData)
+begin
+case pState is
+when S0 =>
+
+parityOut <= '0'; -- Moore output
+if (inData = '1') then
+nState <= S1;
+else
+nState <= S0;
+end if;
+
+when S1 =>
+parityOut <= '1'; -- Moore output
+if (inData = '1') then
+nState <= S0;
+else
+nState <= S1;
+end if;
+	
+when others => -- “Catch all” condition
+nState <= S0;
+parityOut <= '0';
+end case;
+end process;
+end Behav;

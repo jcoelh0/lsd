@@ -1,0 +1,428 @@
+# do IterMultDiv_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# ** Error: Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# ** Error: (vmap-20) Cannot access for writing file "C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini".
+# 
+# Permission denied. (errno = EACCES)
+# ** Warning: modelsim.ini and default modelsim.ini are the same file
+# Error in macro ./IterMultDiv_run_msim_rtl_vhdl.do line 6
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# ** Error: (vmap-20) Cannot access for writing file "C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini".
+# 
+# Permission denied. (errno = EACCES)
+# ** Warning: modelsim.ini and default modelsim.ini are the same file
+#     while executing
+# "error [FixExecError $msg]"
+#     (procedure "vmap" line 6)
+#     invoked from within
+# "vmap work rtl_work"
+vlib work
+vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:08:57 on Apr 21,2017
+# vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IterMultDiv_Tb
+# -- Compiling architecture Stimulus of IterMultDiv_Tb
+# ** Error: (vcom-11) Could not find work.itermultdiv.
+# 
+# ** Error (suppressible): C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd(16): (vcom-1195) Cannot find expanded name "work.IterMultDiv".
+# 
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd(16): Unknown expanded name.
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd(70): VHDL Compiler exiting
+# End time: 15:08:58 on Apr 21,2017, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:08:58 on Apr 21,2017
+# vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IterMultDiv_Tb
+# -- Compiling architecture Stimulus of IterMultDiv_Tb
+# ** Error: (vcom-11) Could not find work.itermultdiv.
+# 
+# ** Error (suppressible): C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd(16): (vcom-1195) Cannot find expanded name "work.IterMultDiv".
+# 
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd(16): Unknown expanded name.
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd(70): VHDL Compiler exiting
+# End time: 15:08:58 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:09:00 on Apr 21,2017
+# vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IterMultDiv_Tb
+# -- Compiling architecture Stimulus of IterMultDiv_Tb
+# ** Error: (vcom-11) Could not find work.itermultdiv.
+# 
+# ** Error (suppressible): C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd(16): (vcom-1195) Cannot find expanded name "work.IterMultDiv".
+# 
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd(16): Unknown expanded name.
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd(70): VHDL Compiler exiting
+# End time: 15:09:00 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:09:01 on Apr 21,2017
+# vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IterMultDiv_Tb
+# -- Compiling architecture Stimulus of IterMultDiv_Tb
+# ** Error: (vcom-11) Could not find work.itermultdiv.
+# 
+# ** Error (suppressible): C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd(16): (vcom-1195) Cannot find expanded name "work.IterMultDiv".
+# 
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd(16): Unknown expanded name.
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd(70): VHDL Compiler exiting
+# End time: 15:09:01 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+vsim work.itermultdiv_tb
+# vsim work.itermultdiv_tb 
+# Start time: 15:09:12 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv_tb' has no architecture.
+# 
+# Error loading design
+vsim work.itermultdiv_tb
+# End time: 15:09:13 on Apr 21,2017, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# vsim work.itermultdiv_tb 
+# Start time: 15:09:14 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv_tb' has no architecture.
+# 
+# Error loading design
+vsim work.itermultdiv_tb
+# End time: 15:09:14 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# vsim work.itermultdiv_tb 
+# Start time: 15:09:14 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv_tb' has no architecture.
+# 
+# Error loading design
+vsim work.itermultdiv_tb
+# End time: 15:09:15 on Apr 21,2017, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# vsim work.itermultdiv_tb 
+# Start time: 15:09:15 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv_tb' has no architecture.
+# 
+# Error loading design
+vsim work.itermultdiv_tb
+# End time: 15:09:15 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# vsim work.itermultdiv_tb 
+# Start time: 15:09:15 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv_tb' has no architecture.
+# 
+# Error loading design
+vsim work.itermultdiv_tb
+# End time: 15:09:16 on Apr 21,2017, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# vsim work.itermultdiv_tb 
+# Start time: 15:09:16 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv_tb' has no architecture.
+# 
+# Error loading design
+vsim work.itermultdiv_tb
+# End time: 15:09:17 on Apr 21,2017, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# vsim work.itermultdiv_tb 
+# Start time: 15:09:17 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv_tb' has no architecture.
+# 
+# Error loading design
+# End time: 15:09:17 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.itermultdiv_tb
+# vsim work.itermultdiv_tb 
+# Start time: 15:14:39 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv_tb' has no architecture.
+# 
+# Error loading design
+vsim work.itermultdiv_tb
+# End time: 15:14:40 on Apr 21,2017, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# vsim work.itermultdiv_tb 
+# Start time: 15:14:40 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv_tb' has no architecture.
+# 
+# Error loading design
+# End time: 15:14:40 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.itermultdiv_tb
+# vsim work.itermultdiv_tb 
+# Start time: 15:14:53 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv_tb' has no architecture.
+# 
+# Error loading design
+vsim work.itermultdiv_tb
+# End time: 15:14:53 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# vsim work.itermultdiv_tb 
+# Start time: 15:14:53 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv_tb' has no architecture.
+# 
+# Error loading design
+# End time: 15:14:53 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.itermultdiv_tb
+# vsim work.itermultdiv_tb 
+# Start time: 15:15:55 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv_tb' has no architecture.
+# 
+# Error loading design
+# End time: 15:15:55 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:16:09 on Apr 21,2017
+# vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IterMultDiv
+# -- Compiling architecture Structural of IterMultDiv
+# ** Error: (vcom-11) Could not find work.mainctrlunit.
+# 
+# ** Error (suppressible): C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(41): (vcom-1195) Cannot find expanded name "work.MainCtrlUnit".
+# 
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(41): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.itermultcore.
+# 
+# ** Error (suppressible): C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(52): (vcom-1195) Cannot find expanded name "work.IterMultCore".
+# 
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(52): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.iterdivcore.
+# 
+# ** Error (suppressible): C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(65): (vcom-1195) Cannot find expanded name "work.IterDivCore".
+# 
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(65): Unknown expanded name.
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(89): VHDL Compiler exiting
+# End time: 15:16:09 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:16:12 on Apr 21,2017
+# vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IterMultDiv
+# -- Compiling architecture Structural of IterMultDiv
+# ** Error: (vcom-11) Could not find work.mainctrlunit.
+# 
+# ** Error (suppressible): C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(41): (vcom-1195) Cannot find expanded name "work.MainCtrlUnit".
+# 
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(41): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.itermultcore.
+# 
+# ** Error (suppressible): C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(52): (vcom-1195) Cannot find expanded name "work.IterMultCore".
+# 
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(52): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.iterdivcore.
+# 
+# ** Error (suppressible): C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(65): (vcom-1195) Cannot find expanded name "work.IterDivCore".
+# 
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(65): Unknown expanded name.
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(89): VHDL Compiler exiting
+# End time: 15:16:12 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:16:13 on Apr 21,2017
+# vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IterMultDiv
+# -- Compiling architecture Structural of IterMultDiv
+# ** Error: (vcom-11) Could not find work.mainctrlunit.
+# 
+# ** Error (suppressible): C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(41): (vcom-1195) Cannot find expanded name "work.MainCtrlUnit".
+# 
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(41): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.itermultcore.
+# 
+# ** Error (suppressible): C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(52): (vcom-1195) Cannot find expanded name "work.IterMultCore".
+# 
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(52): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.iterdivcore.
+# 
+# ** Error (suppressible): C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(65): (vcom-1195) Cannot find expanded name "work.IterDivCore".
+# 
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(65): Unknown expanded name.
+# ** Error: C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv.vhd(89): VHDL Compiler exiting
+# End time: 15:16:13 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+vsim work.itermultdiv_tb
+# vsim work.itermultdiv_tb 
+# Start time: 15:16:22 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv_tb' has no architecture.
+# 
+# Error loading design
+# End time: 15:16:22 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.itermultdiv
+# vsim work.itermultdiv 
+# Start time: 15:16:22 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv' has no architecture.
+# 
+# Error loading design
+vsim work.itermultdiv
+# End time: 15:16:23 on Apr 21,2017, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# vsim work.itermultdiv 
+# Start time: 15:16:23 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv' has no architecture.
+# 
+# Error loading design
+vsim work.itermultdiv
+# End time: 15:16:23 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# vsim work.itermultdiv 
+# Start time: 15:16:23 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv' has no architecture.
+# 
+# Error loading design
+vsim work.itermultdiv
+# End time: 15:16:51 on Apr 21,2017, Elapsed time: 0:00:28
+# Errors: 1, Warnings: 0
+# vsim work.itermultdiv 
+# Start time: 15:16:51 on Apr 21,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv' has no architecture.
+# 
+# Error loading design
+# End time: 15:16:51 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:18:21 on Apr 21,2017
+# vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IterMultDiv_Tb
+# -- Compiling architecture Stimulus of IterMultDiv_Tb
+# -- Loading entity IterMultDiv
+# End time: 15:18:21 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Cannot determine language of C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/9
+# Cannot determine language of C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/9
+vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 15:18:31 on Apr 21,2017
+# vcom -reportprogress 300 -work work C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/IterMultDiv_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity IterMultDiv_Tb
+# -- Compiling architecture Stimulus of IterMultDiv_Tb
+# -- Loading entity IterMultDiv
+# End time: 15:18:31 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.itermultdiv_tb(stimulus)
+# vsim work.itermultdiv_tb(stimulus) 
+# Start time: 15:18:35 on Apr 21,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.itermultdiv_tb(stimulus)
+# ** Error: (vsim-3170) Could not find 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv(structural)'.
+# 
+# Error loading design
+# End time: 15:18:36 on Apr 21,2017, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim work.itermultdiv_tb(stimulus)
+# vsim work.itermultdiv_tb(stimulus) 
+# Start time: 15:18:49 on Apr 21,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.itermultdiv_tb(stimulus)
+# ** Error: (vsim-3170) Could not find 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv(structural)'.
+# 
+# Error loading design
+vsim work.itermultdiv_tb(stimulus)
+# End time: 15:18:51 on Apr 21,2017, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 0
+# vsim work.itermultdiv_tb(stimulus) 
+# Start time: 15:18:52 on Apr 21,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.itermultdiv_tb(stimulus)
+# ** Error: (vsim-3170) Could not find 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv(structural)'.
+# 
+# Error loading design
+vsim work.itermultdiv_tb(stimulus)
+# End time: 15:18:52 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# vsim work.itermultdiv_tb(stimulus) 
+# Start time: 15:18:52 on Apr 21,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.itermultdiv_tb(stimulus)
+# ** Error: (vsim-3170) Could not find 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv(structural)'.
+# 
+# Error loading design
+# End time: 15:18:52 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.itermultdiv_tb(stimulus)
+# vsim work.itermultdiv_tb(stimulus) 
+# Start time: 15:18:54 on Apr 21,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.itermultdiv_tb(stimulus)
+# ** Error: (vsim-3170) Could not find 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv(structural)'.
+# 
+# Error loading design
+# End time: 15:18:54 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.itermultdiv_tb(stimulus)
+# vsim work.itermultdiv_tb(stimulus) 
+# Start time: 15:19:04 on Apr 21,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.itermultdiv_tb(stimulus)
+# ** Error: (vsim-3170) Could not find 'C:/Users/jcoel/Desktop/LSD2/Aula9/Parte2/simulation/modelsim/work.itermultdiv(structural)'.
+# 
+# Error loading design
+# End time: 15:19:04 on Apr 21,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

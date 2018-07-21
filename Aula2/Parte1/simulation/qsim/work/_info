@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/JoãoCoelho/Desktop/LSD2/Aula2/Parte1/simulation/qsim
+vDec2_4En
+!s110 1487946719
+!i10b 1
+!s100 ]NhFX[e4=K;UeUl0@oO@Z3
+I9c6[mkXdDQUM`O6CagCA50
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/jcoel/Desktop/LSD2/Aula2/Parte1/simulation/qsim
+w1487946707
+8Dec2_4EnDemo.vo
+FDec2_4EnDemo.vo
+L0 32
+Z2 OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1487946709.000000
+!s107 Dec2_4EnDemo.vo|
+!s90 -work|work|Dec2_4EnDemo.vo|
+!i113 1
+Z3 o-work work
+n@dec2_4@en
+vDec2_4En_vlg_vec_tst
+!s110 1487946720
+!i10b 1
+!s100 5]O^UZ0d];PVVgfGgTmL_0
+I4_FX[l18LOBOXg@14c9lf1
+R0
+R1
+w1487946703
+8Dec2_4En_1.vwf.vt
+FDec2_4En_1.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+!s108 1487946719.000000
+!s107 Dec2_4En_1.vwf.vt|
+!s90 -work|work|Dec2_4En_1.vwf.vt|
+!i113 1
+R3
+n@dec2_4@en_vlg_vec_tst

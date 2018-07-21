@@ -1,0 +1,28 @@
+# do parking_phase1.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:57:17 on Mar 24,2017
+# vlog -work work parking_phase1.vo 
+# -- Compiling module parking_Phase2
+# 
+# Top level modules:
+# 	parking_Phase2
+# End time: 17:57:17 on Mar 24,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:57:17 on Mar 24,2017
+# vlog -work work Waveform1.vwf.vt 
+# -- Compiling module parking_Phase2_vlg_vec_tst
+# 
+# Top level modules:
+# 	parking_Phase2_vlg_vec_tst
+# End time: 17:57:17 on Mar 24,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.parking_phase2_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 17:57:17 on Mar 24,2017
+# ** Error: (vsim-3170) Could not find 'work.parking_phase2_vlg_vec_tst'.
+# 
+# Error loading design
+# End time: 17:57:17 on Mar 24,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

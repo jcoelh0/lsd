@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Apr 28 15:56:38 2017
+Quartus Prime Version : 15.1.1 Build 189 12/02/2015 SJ Lite Edition
+Revision Name : RAM_2P_16_8
+Top-level Entity Name : RAM_2P_Demo
+Family : Cyclone IV E
+Total logic elements : 280
+    Total combinational functions : 152
+    Dedicated logic registers : 155
+Total registers : 155
+Total pins : 28
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

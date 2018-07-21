@@ -1,0 +1,24 @@
+2
+3,5
+1 1,5
+1
+0,6
+
+
+process??????????????
+
+(tipos definidos na biblioteca IEEE.STD_LOGIC_1164) 
+‘0’ – Nível baixo                 ‘1’ – Nível Alto
+‘L’ – Nível baixo passivo         ‘H’ – Nível alto passivo
+‘Z’ – Tri-state (alta impedância) ‘-’ – Don’t care                 ‘X’ – Conflito (entre ‘0’ e ‘1’)  ‘W’ – Conflito (entre ‘L’ e ‘H’) 
+‘U’ – Não inicializado
+
+Moore so depende dos estados
+Mealy depende dos Estados e das entradas
+
+latch enable
+flip flop clk
+
+À esquerda lógico ou aritmético (introduz 0’s)
+À direita lógico (introduz0’s)
+À direita aritmético (preserva o sinal)

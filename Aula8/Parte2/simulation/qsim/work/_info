@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jcoel/Desktop/LSD2/Aula8/Parte2/simulation/qsim
+vDrinksFSM
+!s110 1491573388
+!i10b 1
+!s100 me45mU<7OEO3m0Kb5o<W]1
+Ia5Rc<1[>l1H>nNH[FTQmE1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1491573381
+8DrinksMachine.vo
+FDrinksMachine.vo
+L0 32
+Z2 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z3 !s108 1491573388.000000
+!s107 DrinksMachine.vo|
+!s90 -work|work|DrinksMachine.vo|
+!i113 1
+Z4 o-work work
+n@drinks@f@s@m
+vDrinksFSM_vlg_vec_tst
+!s110 1491573389
+!i10b 1
+!s100 B3R7`6zD;D3c`SP9fIad>0
+Ih6Kd2WKT]CLSQKoecGM;61
+R1
+R0
+w1491573377
+8FSM.vwf.vt
+FFSM.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+R3
+!s107 FSM.vwf.vt|
+!s90 -work|work|FSM.vwf.vt|
+!i113 1
+R4
+n@drinks@f@s@m_vlg_vec_tst

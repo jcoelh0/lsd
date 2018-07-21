@@ -1,0 +1,9 @@
+
+State Machine - |DrinksMachine|DrinksFSM:inst|s_currentState
+Name s_currentState.finalState s_currentState.State7080 s_currentState.State5060 s_currentState.State40 s_currentState.State20 s_currentState.initialState 
+s_currentState.initialState 0 0 0 0 0 0 
+s_currentState.State20 0 0 0 0 1 1 
+s_currentState.State40 0 0 0 1 0 1 
+s_currentState.State5060 0 0 1 0 0 1 
+s_currentState.State7080 0 1 0 0 0 1 
+s_currentState.finalState 1 0 0 0 0 1 

@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jcoel/Desktop/LSD2/Aula4/Parte4/simulation/qsim
+vFreqDivider
+Z1 !s110 1489443238
+!i10b 1
+!s100 ]YaHEOiF_ehM`TEOT>oDc2
+Igd;6jMfjE:OH7bCi[Eg883
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1489443237
+8FreqDivider_Demo.vo
+FFreqDivider_Demo.vo
+L0 32
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z4 !s108 1489443238.000000
+!s107 FreqDivider_Demo.vo|
+!s90 -work|work|FreqDivider_Demo.vo|
+!i113 1
+Z5 o-work work
+n@freq@divider
+vFreqDivider_vlg_vec_tst
+R1
+!i10b 1
+!s100 326WXe]1SjKkPKgFMkWl63
+Im^B8LW`X2NdWD=zkN<=iG3
+R2
+R0
+w1489443232
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+n@freq@divider_vlg_vec_tst
